@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>  Properties of Air & Water | Niche Mapper   </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="properties of air and water">
+<meta name="author" content="Niche Mapper Team">
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
+<link rel="icon" href="../../img/web2.png">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/prestoapp.css">
+
+
+</head>
+<body>
+
+<div class="wrap">
+  <div id="header">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+  	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+  				<span class="sr-only">Toggle navigation</span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo2.png" alt="NM company logo" id="icon"></a>
+      </div>
+
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="mlinksw" href="../../index.html">Home </a></li>
+          <li><a  href="#" class="dropdown-toggle mlinksw" data-toggle="dropdown">Applications<span class="caret"></span></a>
+          <ul class="dropdown-menu" id="apps" role="menu">
+               <li> <a style="color:#000;" class="mlinksw" href="../presto/"> Presto (coming soon) </a> </li>
+               <li> <a style="color:#000;" class="mlinksw" href="index.html"> Adagio </a></li>
+              <li> <a  href="http://dairynichemapper.com" style="color:#000;" class="mlinksw"> Dairy NM </a></li>
+          </ul>
+
+          </li>
+          <li><a class="mlinksw" href="../../tech/">Technology</a></li>
+             <li><a class="mlinksw" href="../../contact/">Contact</a></li>
+
+      </ul>
+    </div>
+    </div>
+  </nav>
+  </div>
+
+<div class="container-fluid">
+<p class="pagettl"> Presto  </p>
+</div>
+
+
+
+<div id="content">
+
+<div id="radiolist" name="radiolist" class="container sapp" style="padding:20px;">
+<h4 > Select the meduim by clicking on the radio buttons  : </h4>
+
+    <label for="air" class="radio-inline">
+      <input type="radio" name="radioair" value="air">Air
+    </label>
+    <label for="fresh" class="radio-inline">
+      <input type="radio" name="radioair" value="fresh">Fresh Water
+    </label>
+    <label for="sea" class="radio-inline">
+      <input type="radio" name="radioair" value="sea">Sea Water
+    </label>
+
+</div>
+
+
+
+
+<div class="main">
+
+
+<div class="container  appforms" hidden>
+
+<div  class="frm" >
+   <form name="airform"  role="form" method="post" autocomplete="on" id="airform" class="form-horizontal" hidden>
+
+<h4 class="airttl"> Air Properties</h4>
+<p class="airmodulesinfo" > Please enter the temperature and select each option by clicking on the check box to enter the value. </p>
+
+<div class="form-group rowep">
+	<label for="tempair" >Temperature:</label>
+	    <div >
+	    <input type="text" class="form-control airmodules tempair " name="tempair"  placeholder="Temperature in 'C"  >
+
+	</div>
+</div>
+<hr />
+<div id="elevlist" name="radiolist" >
+  <p> Select either elevation or atmospheric pressure:  </p>
+<div class="form-group rowep">
+    <input type="radio" name="airfm" class="airmodules radio-inline" id="elevation" value="elevation"  >
+	<label for="elevair" >Elevation:</label> <input type="text" class="form-control  elevair " name="elevair" placeholder="Elevation in m"   disabled>
+
+</div>
+<div class="form-group rowep">
+    <input type="radio" name="airfm" class=" airmodules radio-inline" id="pressure" value="pressure" >
+  	<label for="atmos" >Atmospheric Pressure:</label> <input type="text" class="form-control  atmos pressure" name="atmos"  placeholder="Pressure in Pa"   disabled>
+
+</div>
+</div>
+<hr />
+<div id="humidlist" name="radiolist " >
+  <p> Select either relative humidity or dew point temperature:  </p>
+<div class="form-group rowep ">
+    <input type="radio" name="reldew" class="airmodules" id="relative" value="relative" >
+	<label for="relhum" > Relative Humidity:</label> <input type="text" class="form-control  relhum " name="relhum" placeholder="Humidity in %" disabled>
+
+</div>
+<div class="form-group rowep ">
+    <input type="radio" name="reldew" class=" airmodules" id="dew" value="Dew" >
+	<label for="dewpo" >Dew Point Temperature:</label> <input type="text" class="form-control  dewpo" name="dewpo"  placeholder="dew point in 'C" disabled>
+
+</div>
+</div>
+<div>
+     <p class="flag flagair" ></p>
+	      <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
+
+        <div  id="adagio_help">
+                    <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal">Need help?</a>
+
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Presto Help</h4>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+
+                    </div>
+                    </div>
+        </div>
+</div>
+</form>
+</div>
+
+
+
+
+<div class=" frm" >
+
+<form name="freshform" role="form"  method="post" autocomplete="on" id="freshform" class="form-horizontal" hidden>
+ <h4 id="fwttl"> Fresh Water Properties </h4>
+<div class="form-group">
+ <label for="freshtemp">Temperature:</label>
+  <input type="text" class="form-control freshmodules ftemp" id="freshtemp" name="freshtemp" placeholder="Temperature in 'C"  >
+</div>
+
+<div>
+     <p class="flag flagfresh" ></p>
+	   <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
+
+     <div  id="adagio_help">
+                 <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal1">Need help?</a>
+
+                 <!-- Modal -->
+                 <div id="myModal1" class="modal fade" role="dialog">
+                 <div class="modal-dialog">
+
+                 <!-- Modal content-->
+                 <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Presto Help</h4>
+                 </div>
+                 <div class="modal-body">
+
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>
+                 </div>
+
+                 </div>
+                 </div>
+     </div>
+</div>
+</form>
+
+</div>
+
+
+<div class=" frm" >
+<form name="seaform"   role="form" method="post" autocomplete="on" id="seaform" class="form-horizontal" hidden>
+<h4 id="swttl"> Sea Water Properties </h4>
+<div class="form-group">
+ <label for="seatemp">Temperature:</label>
+  <input type="text" class="form-control seamodules stemp" id="seatemp" name="seatemp" placeholder="Temperature in 'C"  >
+</div>
+
+<div>
+     <p class="flag flagsea" ></p>
+	   <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
+
+     <div  id="adagio_help">
+                 <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal2">Need help?</a>
+
+                 <!-- Modal -->
+                 <div id="myModal2" class="modal fade" role="dialog">
+                 <div class="modal-dialog">
+
+                 <!-- Modal content-->
+                 <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">Presto Help</h4>
+                 </div>
+                 <div class="modal-body">
+
+                 </div>
+                 <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                 </div>
+                 </div>
+
+                 </div>
+                 </div>
+     </div>
+</div>
+</form>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+<div class=" container-fluid">
+  <div  id="response" class="table-responsive col-md-offset-3 col-md-6">
+  </div>
+</div>
+</div>
+<footer class="container" id="footer">
+
+  <hr />
+  <p>
+    &copy; <span id="timestamp"></span> -  Niche Mapper LLC  -   All Rights Reserved.
+    <br />  <img src="../../img/web2.png" id="footerlogo">
+  </p>
+
+
+ </footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ <script src="../../js/script.js"></script>
+ <script src="../../js/js-cookie.js "></script>
+ <script src="../../js/time.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+html {}
+body { margin: auto;font-family:Georgia;font-size:16px;
+       background:  url('../../img/air3.jpg') no-repeat center fixed;background-size: cover;
+}
+nav {margin:10px;font-family: 'Open Sans', sans-serif;}
+.navbar-default .navbar-nav>li>a{color:#FFF;}
+.navbar-default .navbar-nav>li>a:hover {background-color:#FFF;color:#000;border-radius: 4px;}
+.dropdown-menu  >li >a {color:#FFF;}
+.navbar-default .navbar-nav>li>a.mlinksw{color:#000;}
+.navbar-default .navbar-nav>li>a.mlinksw:hover {background-color:#FFF;color:grey;border-radius: 4px;}
+.navbar {background-color:transparent;border-color:transparent;}
+.presto_title {padding-top:8%;}
+.presto_descrip {font-size:20px;padding:2px;}
+.aboutthisapp {text-align: left;}
+.modal-header {border-bottom:none;}
+.modal-body {padding-bottom:30px;}
+.name_cook {padding:10px;}
+.major {color:#000066;letter-spacing:1px;text-align:center;margin:40px;}
+.majorl{text-align: left;margin:20px;}
+.points {padding :30px  2px;}
+footer{ color:#b3b3b3;text-align:center;font-size:13px;margin-top:30px;}
+#footerlogo{box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);margin:5px;}
+#content {height:auto;background-color: #FFF;padding:10px;font-family: 'Open Sans', sans-serif;}
+.modal-body {color:#000;font-size: 16px;}
+.btn-default {background-color:#0099cc; border-color:#0099cc; color:#FFF; }
+.btn-default:hover {background-color: #00ace6; border-color:#0099cc; color:#FFF;}
+#icon {width:40%;}
+p#name_error {color:maroon;}
+#terms {background-color:#4d4d4d ;  color:#000; text-align:center;}
+.temrslinks {color:#FFF; text-decoration:none; font-size:12px; }
+.intro{padding:20px 0px 30px 0px;}
+.rowep {display:inline-block; padding-right:40px;padding-left:40px;}
+.main {}
+#response {min-height: 100px;margin-top:25px;background-color: #FFF;}
+#banner {min-height: 500px;color:#FFF;font-size: 70px;text-align:center;font-family: Georgia;}
+#wrapper {background-color: #FFF;	 box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.line { margin-top:0px; padding-top:0px; background-color:#FFF;  width: 3px;  height: 2px;  text-align: center;}
+.linktoapp {border-color:#000066;padding:10px;color:#FFF;background-color:#000066;font-size:18px;border-radius:3px;margin:2px;margin-bottom:30px;}
+a.linktoapp:hover {color:#FFF;border-color:#0066cc;background-color:#0066cc ;cursor:pointer; text-decoration: none;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+#apps {background:transparent;}
+.resutltable {text-align:center;font-family:Trebuchet MS, Helvetica, sans-serif;color:#000066;letter-spacing:1px;}
+.details {margin:20px 0;}
+#wtex{width:70%;}

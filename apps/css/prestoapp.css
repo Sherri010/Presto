@@ -1,0 +1,62 @@
+
+html {}
+body { margin:0;padding:0;font-family: 'Open Sans', sans-serif;font-size:16px;
+
+}
+nav {margin:10px;font-family: 'Open Sans', sans-serif;font-size:16px;}
+.wrap {
+  min-height: calc(100vh - 99px);
+}
+}
+.navbar-collapse{border-top:none;text-align: center;}
+.navbar-default .navbar-nav>li>a{color:#FFF;}
+.navbar-default .navbar-nav>li>a:hover {background-color:#FFF;color:#000;border-radius: 4px;}
+.dropdown-menu  >li >a {color:#FFF;}
+.navbar-default .navbar-nav>li>a.mlinksw{color:#000;}
+.navbar-default .navbar-nav>li>a.mlinksw:hover {background-color:#FFF;color:grey;border-radius: 4px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border:transparent;text-align: center;}
+.pagettl {font-size:40px;text-align: center;margin:20px auto;color:#000066;font-family:georgia;}
+.mainlinks {color:#FFF;}
+.aboutthisapp {text-align: left;}
+a.dloption {padding:8px;background-color:#206040;color:#FFF;border-radius:3px;margin:20px auto;float:right;display:block;;}
+a.dloption:hover {text-decoration: none;background-color:#339966; }
+.major {color:#000066;letter-spacing:1px;text-align:center;margin:40px;}
+.majorl{text-align: left;margin:20px;}
+.points {padding :30px  2px;}
+footer{font-family: 'Open Sans', sans-serif; color:#b3b3b3;text-align:center;font-size:13px;margin-top:30px;}
+#footerlogo{box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.11);margin:5px;}
+#content {height:auto;background-color: #FFF;padding:20px;background-size: cover;font-family: 'Open Sans', sans-serif;}
+.frm {padding:0px  20px 0px 20px;}
+.form-horizontal > h4 {color: #000066;text-align:center;padding-top:20px;}
+.selected {color:#1aff1a; }
+.sapp {text-align:center;}
+.error-keyup-1 {color:#800000;font-size:14px;}
+.fa-exclamation {color:red; font-size:12px;}
+.flag {color:#800000;margin-top:20px; margin-bottom:20px;}
+.btn-default {background-color:#0099cc; border-color:#0099cc; color:#FFF; }
+.btn-default:hover {background-color: #00ace6; border-color:#0099cc; color:#FFF;}
+#icon {width:40%;}
+.navbar {background-color:transparent;border-color:transparent;}
+#terms {background-color:#4d4d4d ;  color:#000; text-align:center;}
+#adagio_help {margin:auto;text-align: center; float:right;padding:20px;}
+#help_button {background-color: #660066 ;border:none;font-size:12px;text-decoration: none;padding:10px;color:#FFF;border-radius: 3px;display:inline;}
+a#help_button:hover {text-decoration: none; background-color: #800080;}
+.temrslinks {color:#FFF; text-decoration:none; font-size:12px; }
+.appforms { margin: 30px auto;
+            max-width:500px;
+	          border-radius:3px; background-color:#f2f2f2;
+				    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			  }
+.intro{padding:20px 0px 30px 0px;}
+.rowep {display:inline; padding-right:20px;}
+.main {}
+#response {min-height: 100px;margin-top:25px;background-color: #FFF;padding:30px;}
+#banner {min-height: 500px;color:#FFF;font-size: 70px;text-align:center;font-family: Georgia;}
+#wrapper {background-color: #FFF;	 box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.line { margin-top:0px; padding-top:0px; background-color:#FFF;  width: 3px;  height: 2px;  text-align: center;}
+#linktoapp {color:#FFF;padding:10px;background-color:#000066;font-size:18px;border-radius:3px; }
+a#linktoapp:hover {background-color:#0066cc ;text-decoration: none;box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+#apps {background:transparent;}
+.resutltable {color:#000066;letter-spacing:1px;display:block;float: left;}
+.details {margin:20px 0;}
+#wtex{width:70%;}

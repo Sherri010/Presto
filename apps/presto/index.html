@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<title>  Presto |  Calculate properties of air, fresh water &amp; sea water </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="properties of air and water">
+<meta name="author" content="Niche Mapper Team">
+
+
+
+<link rel="icon" href="../../img/web2.png">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/presto.css">
+
+
+</head>
+<body>
+
+<div id="header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        	</button>
+      <a class="navbar-brand" href="../../index.html"><img src="../../img/logo2.png" id="icon"></a>
+    </div>
+	<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../../">Home </a></li>
+	    <li><a  href="#" class="dropdown-toggle" data-toggle="dropdown">Applications<span class="caret"></span></a>
+          <ul class="dropdown-menu" id="apps" role="menu">
+               <li> <a  href="index.html"> Presto (coming soon) </a> </li>
+               <li> <a   href="../climate/"> Adagio </a></li>
+                   <li> <a  href="http://dairynichemapper.com"> Dairy NM </a></li>
+          </ul>
+      </li>
+	    <li><a href="../../tech">Technology</a></li>
+         <li><a class="mlinks" href="../../contact/">Contact</a></li>
+
+    </ul>
+  </div>
+  </div>
+</nav>
+</div>
+<div id="banner" class="container-fluid">
+<p class="presto_title" > Presto  </p><span class="line" id="block2"></span>
+<p class="presto_descrip" > Calculate the properties of air, fresh water and sea water </p>
+
+<div>
+  <a  class="linktoapp"  id="name_ckeck"> Let's start </a>
+  <!-- modal -->
+<div class="modal fade"  id="nameModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal" role="form">
+             <div class="form-group">
+                <label class="control-label name_cook">Before we begin...</label>
+                <p> Please enter your name</p>
+                <p id='name_error'></p>
+                <div class="col-md-offset-2 col-md-8">
+                   <input class="form-control" id="name_presto" type="text" >
+                </div>
+            </div>
+            <input type="button"  value="OK" class="submit_name">
+        </form>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="content">
+
+<div class="container intro" >
+  <div class="row points">
+    <div class=" col-md-4">
+    <h3 class="major"> About this application:</h3>
+    <p class="aboutthisapp">Presto  is a very easy to use app to quickly find any of
+    the physical properties of air and water commonly used in convection calculations.The purpose of this application is to allow rapid, easy access to
+      properties of air and water for use in computations of convective heat and mass transfer and energy and mass balance calculations.
+       </p>
+</div>
+
+
+<div class=" col-md-4">
+  <h3 class="major"> What to expect:</h3>
+<p class="aboutthisapp">This app provides the dry air, wet air, freshwater and seawater physical properties for a given temperature, humidity and elevation. </p>
+</div>
+<div class=" col-md-4">
+    <h3 class="major"> How to gain access:</h3>
+    <p class="aboutthisapp">This is a free app open to anyone and will be available soon. </p>
+</div>
+</div>
+
+<div class="panel panel-default" style="margin-top:20px;">
+    <div class="panel-body" style="padding:20px auto;margin:20px auto;text-align:left;">
+      <h3 class="major majorl"><i class="fa fa-database"></i>&nbsp;Data Source:</h3>
+      This data is originally derived from List’s Smithsonian Meteorological Tables and the in-house publication.<br>
+      Properties of Air on <a href="https://dl.dropboxusercontent.com/u/8411712/Properties%20of%20Air%202010.pdf" target="blank"> Dr. C Richard Tracy's website </a>that lists original sources.
+      <br>An implementation in R is also available from <a href="https://camelunimelb.wordpress.com/resources/" target="balnk1">Dr. Michael Kearney's website</a>.
+
+          </div>
+        </div>
+
+ </div>
+<footer class="container" id="footer">
+  <hr />
+  <a href="#"> Terms &amp; conditions </a>  -  <a href="#"> Disclaimer </a>
+  <p>
+    &copy; <span id="timestamp"></span> -  Niche Mapper LLC  -  All Rights Reserved.
+    <br />  <img src="../../img/web2.png" alt="NM company logo" id="footerlogo">
+  </p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="../../js/time.js"></script>
+  <script src="../../js/js-cookie.js "></script>
+  <script src="../../js/presto.js"></script>
+  <script src="../../js/script.js"></script>
+ </footer>
+ </div>
+
+</body>
+</html>
