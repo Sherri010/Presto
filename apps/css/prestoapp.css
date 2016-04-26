@@ -1,13 +1,8 @@
 
 html {}
-body { margin:0;padding:0;font-family: 'Open Sans', sans-serif;font-size:16px;
-
-}
+body { margin:0;padding:0;font-family: 'Open Sans', sans-serif;font-size:16px;}
 nav {margin:10px;font-family: 'Open Sans', sans-serif;font-size:16px;}
-.wrap {
-  min-height: calc(100vh - 99px);
-}
-}
+.wrap {min-height: calc(100vh - 99px);}
 .navbar-collapse{border-top:none;text-align: center;}
 .navbar-default .navbar-nav>li>a{color:#FFF;}
 .navbar-default .navbar-nav>li>a:hover {background-color:#FFF;color:#000;border-radius: 4px;}
@@ -33,14 +28,14 @@ footer{font-family: 'Open Sans', sans-serif; color:#b3b3b3;text-align:center;fon
 .error-keyup-1 {color:#800000;font-size:14px;}
 .fa-exclamation {color:red; font-size:12px;}
 .flag {color:#800000;margin-top:20px; margin-bottom:20px;}
-.btn-default {background-color:#0099cc; border-color:#0099cc; color:#FFF; }
+.btn-default {background-color:#0099cc;color:#FFF;border:none; }
 .btn-default:hover {background-color: #00ace6; border-color:#0099cc; color:#FFF;}
 #icon {width:40%;}
-.navbar {background-color:transparent;border-color:transparent;}
+.navbar {background-color:transparent;border:none;}
 #terms {background-color:#4d4d4d ;  color:#000; text-align:center;}
-#adagio_help {margin:auto;text-align: center; float:right;padding:20px;}
-#help_button {background-color: #660066 ;border:none;font-size:12px;text-decoration: none;padding:10px;color:#FFF;border-radius: 3px;display:inline;}
-a#help_button:hover {text-decoration: none; background-color: #800080;}
+.presto_help {text-align: center; float:right;padding:20px;}
+.help_button {background-color: #660066 ;border:none;font-size:12px;text-decoration: none;padding:10px;color:#FFF;border-radius: 3px;display:inline;}
+a.help_button:hover {text-decoration: none; background-color: #800080;color:#FFF;}
 .temrslinks {color:#FFF; text-decoration:none; font-size:12px; }
 .appforms { margin: 30px auto;
             max-width:500px;
@@ -50,7 +45,7 @@ a#help_button:hover {text-decoration: none; background-color: #800080;}
 .intro{padding:20px 0px 30px 0px;}
 .rowep {display:inline; padding-right:20px;}
 .main {}
-#response {min-height: 100px;margin-top:25px;background-color: #FFF;padding:30px;}
+#response {min-height: 100px;margin-top:25px;background-color: #FFF;padding:30px;border:none;}
 #banner {min-height: 500px;color:#FFF;font-size: 70px;text-align:center;font-family: Georgia;}
 #wrapper {background-color: #FFF;	 box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .line { margin-top:0px; padding-top:0px; background-color:#FFF;  width: 3px;  height: 2px;  text-align: center;}

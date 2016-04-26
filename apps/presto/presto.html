@@ -60,17 +60,17 @@
 
 <div id="content">
 
-<div id="radiolist" name="radiolist" class="container sapp" style="padding:20px;">
+<div id="radiolist"  class="container sapp" style="padding:20px;">
 <h4 > Select the meduim by clicking on the radio buttons  : </h4>
 
     <label for="air" class="radio-inline">
-      <input type="radio" name="radioair" value="air">Air
+      <input type="radio" id="air" name="radioair" value="air">Air
     </label>
     <label for="fresh" class="radio-inline">
-      <input type="radio" name="radioair" value="fresh">Fresh Water
+      <input type="radio" id="fresh" name="radioair" value="fresh">Fresh Water
     </label>
     <label for="sea" class="radio-inline">
-      <input type="radio" name="radioair" value="sea">Sea Water
+      <input type="radio" id="sea" name="radioair" value="sea">Sea Water
     </label>
 
 </div>
@@ -84,43 +84,43 @@
 <div class="container  appforms" hidden>
 
 <div  class="frm" >
-   <form name="airform"  role="form" method="post" autocomplete="on" id="airform" class="form-horizontal" hidden>
+   <form name="airform" method="post" autocomplete="on" id="airform" class="form-horizontal" hidden>
 
 <h4 class="airttl"> Air Properties</h4>
 <p class="airmodulesinfo" > Please enter the temperature and select each option by clicking on the check box to enter the value. </p>
 
 <div class="form-group rowep">
-	<label for="tempair" >Temperature:</label>
+	<label  >Temperature:</label>
 	    <div >
 	    <input type="text" class="form-control airmodules tempair " name="tempair"  placeholder="Temperature in 'C"  >
 
 	</div>
 </div>
 <hr />
-<div id="elevlist" name="radiolist" >
+<div id="elevlist">
   <p> Select either elevation or atmospheric pressure:  </p>
 <div class="form-group rowep">
     <input type="radio" name="airfm" class="airmodules radio-inline" id="elevation" value="elevation"  >
-	<label for="elevair" >Elevation:</label> <input type="text" class="form-control  elevair " name="elevair" placeholder="Elevation in m"   disabled>
+	<label>Elevation:</label> <input type="text" class="form-control  elevair " name="elevair" placeholder="Elevation in m"   disabled>
 
 </div>
 <div class="form-group rowep">
     <input type="radio" name="airfm" class=" airmodules radio-inline" id="pressure" value="pressure" >
-  	<label for="atmos" >Atmospheric Pressure:</label> <input type="text" class="form-control  atmos pressure" name="atmos"  placeholder="Pressure in Pa"   disabled>
+  	<label>Atmospheric Pressure:</label> <input type="text" class="form-control  atmos pressure" name="atmos"  placeholder="Pressure in Pa"   disabled>
 
 </div>
 </div>
 <hr />
-<div id="humidlist" name="radiolist " >
+<div id="humidlist">
   <p> Select either relative humidity or dew point temperature:  </p>
 <div class="form-group rowep ">
     <input type="radio" name="reldew" class="airmodules" id="relative" value="relative" >
-	<label for="relhum" > Relative Humidity:</label> <input type="text" class="form-control  relhum " name="relhum" placeholder="Humidity in %" disabled>
+	<label  > Relative Humidity:</label> <input type="text" class="form-control  relhum " name="relhum" placeholder="Humidity in %" disabled>
 
 </div>
 <div class="form-group rowep ">
     <input type="radio" name="reldew" class=" airmodules" id="dew" value="Dew" >
-	<label for="dewpo" >Dew Point Temperature:</label> <input type="text" class="form-control  dewpo" name="dewpo"  placeholder="dew point in 'C" disabled>
+	<label >Dew Point Temperature:</label> <input type="text" class="form-control  dewpo" name="dewpo"  placeholder="dew point in 'C" disabled>
 
 </div>
 </div>
@@ -128,8 +128,8 @@
      <p class="flag flagair" ></p>
 	      <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
 
-        <div  id="adagio_help">
-                    <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal">Need help?</a>
+        <div  class="presto_help">
+                    <a   class="help_button" href="#" data-toggle="modal" data-target="#myModal">Need help?</a>
 
                     <!-- Modal -->
                     <div id="myModal" class="modal fade" role="dialog">
@@ -161,7 +161,7 @@
 
 <div class=" frm" >
 
-<form name="freshform" role="form"  method="post" autocomplete="on" id="freshform" class="form-horizontal" hidden>
+<form name="freshform"   method="post" autocomplete="on" id="freshform" class="form-horizontal" hidden>
  <h4 id="fwttl"> Fresh Water Properties </h4>
 <div class="form-group">
  <label for="freshtemp">Temperature:</label>
@@ -172,8 +172,8 @@
      <p class="flag flagfresh" ></p>
 	   <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
 
-     <div  id="adagio_help">
-                 <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal1">Need help?</a>
+     <div  class="presto_help">
+                 <a   class="help_button" href="#" data-toggle="modal" data-target="#myModal1">Need help?</a>
 
                  <!-- Modal -->
                  <div id="myModal1" class="modal fade" role="dialog">
@@ -203,7 +203,7 @@
 
 
 <div class=" frm" >
-<form name="seaform"   role="form" method="post" autocomplete="on" id="seaform" class="form-horizontal" hidden>
+<form name="seaform"   method="post" autocomplete="on" id="seaform" class="form-horizontal" hidden>
 <h4 id="swttl"> Sea Water Properties </h4>
 <div class="form-group">
  <label for="seatemp">Temperature:</label>
@@ -214,8 +214,8 @@
      <p class="flag flagsea" ></p>
 	   <button type="button" onclick="myFunction(); return false;" class="btn btn-default submit" style="margin-bottom: 20px" hidden > Go...</button>
 
-     <div  id="adagio_help">
-                 <a   id="help_button" href="#" data-toggle="modal" data-target="#myModal2">Need help?</a>
+     <div  class="presto_help">
+                 <a   class="help_button" href="#" data-toggle="modal" data-target="#myModal2">Need help?</a>
 
                  <!-- Modal -->
                  <div id="myModal2" class="modal fade" role="dialog">
@@ -258,7 +258,7 @@
   <hr />
   <p>
     &copy; <span id="timestamp"></span> -  Niche Mapper LLC  -   All Rights Reserved.
-    <br />  <img src="../../img/web2.png" id="footerlogo">
+    <br />  <img src="../../img/web2.png"  alt="company logo" id="footerlogo">
   </p>
 
 
